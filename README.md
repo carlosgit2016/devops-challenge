@@ -2,10 +2,11 @@
 
 ## CIDR Calculator
 
-The app's name stands for RDerik's Interactive  CIDR (RDICIDR), this is an CIDR calculator. This project uses golang and its library net/http to serve static files that are under web/public folder.
+The app's name stands for RDerik's Interactive  CIDR (RDICIDR), this is an CIDR calculator. This project uses golang and its library net/http to serve static files that are under `web/public` folder.
 
 
 ### Execute the application
+> Note: The application expects `web/public` to be in a relative path
 ```bash
 PORT=3000 go run cmd/main/main.go
 ```
